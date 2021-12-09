@@ -1,0 +1,23 @@
+installation:install_windows_iso
+    guestname
+        win2012
+    guestos
+        win2012
+    guestarch
+        x86_64
+    imageformat
+        qcow2
+    hddriver
+        virtio
+    graphic
+        spice
+    nicdriver
+        virtio
+    xml
+        #INSTALL_WINDOWS#
+    video
+        qxl
+
+clean
+
+
