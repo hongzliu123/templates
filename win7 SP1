@@ -1,0 +1,86 @@
+installation:install_windows_iso
+    guestname
+        win7_i386
+    guestos
+        win7SP1
+    guestarch
+        i386
+    imageformat
+        qcow2
+    hddriver
+        virtio
+    graphic
+        spice
+    nicdriver
+        virtio
+    xml
+        #INSTALL_WINDOWS#
+    video
+        qxl
+
+clean
+
+installation:install_windows_iso
+    guestname
+        win7_x86_64
+    guestos
+        win7SP1
+    guestarch
+        x86_64
+    imageformat
+        qcow2
+    hddriver
+        virtio
+    graphic
+        spice
+    nicdriver
+        virtio
+    xml
+        #INSTALL_WINDOWS#
+    video
+        qxl
+
+clean
+
+installation:install_windows_iso
+    guestname
+        win7_x86_64
+    guestos
+        win7SP1
+    imageformat
+        raw
+    hddriver
+        scsi
+    graphic
+        vnc
+    nicdriver
+        virtio
+    diskpath
+        /var/lib/libvirt/images/libvirt-test-api
+    xml
+        #INSTALL_WINDOWS#
+    video
+        cirrus
+
+clean
+installation:install_windows_iso
+    guestname
+        win7_i386
+    guestos
+        win7SP1
+    imageformat
+        raw
+    hddriver
+        scsi
+    graphic
+        vnc
+    nicdriver
+        virtio
+    diskpath
+        /var/lib/libvirt/images/libvirt-test-api
+    xml
+        #INSTALL_WINDOWS#
+    video
+        cirrus
+
+clean
